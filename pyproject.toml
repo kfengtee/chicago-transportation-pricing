@@ -5,11 +5,20 @@ description = ""
 authors = ["kfengtee <kfengtee@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-numpy = "^1.23.3"
+python = ">=3.8,<3.12"
 pandas = "^1.5.0"
-scikit-learn = "^1.1.2"
 seaborn = "^0.12.0"
+ipywidgets = "^8.0.2"
+jupyter-dash = "^0.4.2"
+geopandas = "^0.11.1"
+geoplot = "^0.5.1"
+geohashlite = "^0.3.2"
+auto-sklearn = "^0.15.0"
+dask = "^2022.9.1"
+distributed = "^2022.9.1"
+xgboost = "^1.6.2"
+plotly = "^5.10.0"
+
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"

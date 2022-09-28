@@ -9,8 +9,16 @@
 1. Ensure poetry is installed on your device (https://python-poetry.org/)
 2. Launch JupyterLab
 ```
+poetry install
 poetry run jupyter lab
 ```
 3. Navigate to:
     - `1_service_launch_report.ipynb`: Evaluation on launching ride-hailing service in Chicago
     - `2_pricing_model.ipynb`: For running the pricing model
+
+
+If encounter issues installing cartopy, consider installing the following dependency
+`apt -y install libgeos-dev`
+
+
+apt-get install -y nodejs
